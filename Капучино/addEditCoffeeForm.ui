@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>197</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="2">
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>молотый</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>в зернах</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string> описание вкуса</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string> название сорта</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QSpinBox" name="spinBox">
+      <property name="maximum">
+       <number>999999</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QSpinBox" name="spinBox_2">
+      <property name="maximum">
+       <number>999999</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string> степень обжарки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string> молотый/в зернах</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string> цена</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Скандинавская или коричная обжарка (I степень)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Новоанглийская обжарка (II степень)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Американская обжарка (III степень)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Городская обжарка (IV степнь)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Полная городская (V степень)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Венская обжарка (VI степень)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Французская обжарка (VII степень)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Испанская или Тёмная Французская обжарка (VIII степень)</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string> объем упаковки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="6" column="0" colspan="3">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>ОК</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
